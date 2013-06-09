@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC85010517644451002F4AB1 /* Shiny_green_button_by_Ahimsa1.png in Resources */ = {isa = PBXBuildFile; fileRef = FC85010417644451002F4AB1 /* Shiny_green_button_by_Ahimsa1.png */; };
 		FCDC44C417643BF700CF4255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C317643BF700CF4255 /* UIKit.framework */; };
 		FCDC44C617643BF700CF4255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C517643BF700CF4255 /* Foundation.framework */; };
 		FCDC44C817643BF700CF4255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C717643BF700CF4255 /* CoreGraphics.framework */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC85010417644451002F4AB1 /* Shiny_green_button_by_Ahimsa1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shiny_green_button_by_Ahimsa1.png; sourceTree = "<group>"; };
 		FCDC44C017643BF700CF4255 /* ProgKitchenTImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgKitchenTImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDC44C317643BF700CF4255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FCDC44C517643BF700CF4255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 				FCDC44DB17643BF700CF4255 /* MainStoryboard.storyboard */,
 				FCDC44DE17643BF700CF4255 /* ViewController.h */,
 				FCDC44DF17643BF700CF4255 /* ViewController.m */,
+				FC85010417644451002F4AB1 /* Shiny_green_button_by_Ahimsa1.png */,
 				FCDC44CA17643BF700CF4255 /* Supporting Files */,
 			);
 			path = ProgKitchenTImer;
@@ -163,6 +166,7 @@
 				FCDC44D817643BF700CF4255 /* Default@2x.png in Resources */,
 				FCDC44DA17643BF700CF4255 /* Default-568h@2x.png in Resources */,
 				FCDC44DD17643BF700CF4255 /* MainStoryboard.storyboard in Resources */,
+				FC85010517644451002F4AB1 /* Shiny_green_button_by_Ahimsa1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +300,7 @@
 				FCDC44E517643BF700CF4255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

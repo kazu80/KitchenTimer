@@ -9,5 +9,23 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *labelTime;
+    NSTimer *tm;
+    int minute;
+    int second;
+}
+
+@property (retain, nonatomic) IBOutlet UILabel *labelTime;
+
+- (IBAction)clickStart:(id)sender;
+
+- (IBAction)clickStop:(id)sender;
+
+- (void)onTimer:(NSTimer*)timer;
+
+@property (retain, nonatomic) IBOutlet UIPickerView *picker;
+
+- (IBAction)clickSetting:(id)sender;
 
 @end
