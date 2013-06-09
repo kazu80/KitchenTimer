@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FCDC44C417643BF700CF4255 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C317643BF700CF4255 /* UIKit.framework */; };
+		FCDC44C617643BF700CF4255 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C517643BF700CF4255 /* Foundation.framework */; };
+		FCDC44C817643BF700CF4255 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCDC44C717643BF700CF4255 /* CoreGraphics.framework */; };
+		FCDC44CE17643BF700CF4255 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FCDC44CC17643BF700CF4255 /* InfoPlist.strings */; };
+		FCDC44D017643BF700CF4255 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDC44CF17643BF700CF4255 /* main.m */; };
+		FCDC44D417643BF700CF4255 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDC44D317643BF700CF4255 /* AppDelegate.m */; };
+		FCDC44D617643BF700CF4255 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC44D517643BF700CF4255 /* Default.png */; };
+		FCDC44D817643BF700CF4255 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC44D717643BF700CF4255 /* Default@2x.png */; };
+		FCDC44DA17643BF700CF4255 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCDC44D917643BF700CF4255 /* Default-568h@2x.png */; };
+		FCDC44DD17643BF700CF4255 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCDC44DB17643BF700CF4255 /* MainStoryboard.storyboard */; };
+		FCDC44E017643BF700CF4255 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCDC44DF17643BF700CF4255 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FCDC44C017643BF700CF4255 /* ProgKitchenTImer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgKitchenTImer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCDC44C317643BF700CF4255 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FCDC44C517643BF700CF4255 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FCDC44C717643BF700CF4255 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FCDC44CB17643BF700CF4255 /* ProgKitchenTImer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProgKitchenTImer-Info.plist"; sourceTree = "<group>"; };
+		FCDC44CD17643BF700CF4255 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FCDC44CF17643BF700CF4255 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCDC44D117643BF700CF4255 /* ProgKitchenTImer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProgKitchenTImer-Prefix.pch"; sourceTree = "<group>"; };
+		FCDC44D217643BF700CF4255 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FCDC44D317643BF700CF4255 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FCDC44D517643BF700CF4255 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FCDC44D717643BF700CF4255 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FCDC44D917643BF700CF4255 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCDC44DC17643BF700CF4255 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FCDC44DE17643BF700CF4255 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FCDC44DF17643BF700CF4255 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCDC44BD17643BF700CF4255 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC44C417643BF700CF4255 /* UIKit.framework in Frameworks */,
+				FCDC44C617643BF700CF4255 /* Foundation.framework in Frameworks */,
+				FCDC44C817643BF700CF4255 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCDC44B717643BF700CF4255 = {
+			isa = PBXGroup;
+			children = (
+				FCDC44C917643BF700CF4255 /* ProgKitchenTImer */,
+				FCDC44C217643BF700CF4255 /* Frameworks */,
+				FCDC44C117643BF700CF4255 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCDC44C117643BF700CF4255 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC44C017643BF700CF4255 /* ProgKitchenTImer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCDC44C217643BF700CF4255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC44C317643BF700CF4255 /* UIKit.framework */,
+				FCDC44C517643BF700CF4255 /* Foundation.framework */,
+				FCDC44C717643BF700CF4255 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FCDC44C917643BF700CF4255 /* ProgKitchenTImer */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC44D217643BF700CF4255 /* AppDelegate.h */,
+				FCDC44D317643BF700CF4255 /* AppDelegate.m */,
+				FCDC44DB17643BF700CF4255 /* MainStoryboard.storyboard */,
+				FCDC44DE17643BF700CF4255 /* ViewController.h */,
+				FCDC44DF17643BF700CF4255 /* ViewController.m */,
+				FCDC44CA17643BF700CF4255 /* Supporting Files */,
+			);
+			path = ProgKitchenTImer;
+			sourceTree = "<group>";
+		};
+		FCDC44CA17643BF700CF4255 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCDC44CB17643BF700CF4255 /* ProgKitchenTImer-Info.plist */,
+				FCDC44CC17643BF700CF4255 /* InfoPlist.strings */,
+				FCDC44CF17643BF700CF4255 /* main.m */,
+				FCDC44D117643BF700CF4255 /* ProgKitchenTImer-Prefix.pch */,
+				FCDC44D517643BF700CF4255 /* Default.png */,
+				FCDC44D717643BF700CF4255 /* Default@2x.png */,
+				FCDC44D917643BF700CF4255 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCDC44BF17643BF700CF4255 /* ProgKitchenTImer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCDC44E317643BF700CF4255 /* Build configuration list for PBXNativeTarget "ProgKitchenTImer" */;
+			buildPhases = (
+				FCDC44BC17643BF700CF4255 /* Sources */,
+				FCDC44BD17643BF700CF4255 /* Frameworks */,
+				FCDC44BE17643BF700CF4255 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProgKitchenTImer;
+			productName = ProgKitchenTImer;
+			productReference = FCDC44C017643BF700CF4255 /* ProgKitchenTImer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCDC44B817643BF700CF4255 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "kazuyoshi kawakami";
+			};
+			buildConfigurationList = FCDC44BB17643BF700CF4255 /* Build configuration list for PBXProject "ProgKitchenTImer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FCDC44B717643BF700CF4255;
+			productRefGroup = FCDC44C117643BF700CF4255 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCDC44BF17643BF700CF4255 /* ProgKitchenTImer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCDC44BE17643BF700CF4255 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC44CE17643BF700CF4255 /* InfoPlist.strings in Resources */,
+				FCDC44D617643BF700CF4255 /* Default.png in Resources */,
+				FCDC44D817643BF700CF4255 /* Default@2x.png in Resources */,
+				FCDC44DA17643BF700CF4255 /* Default-568h@2x.png in Resources */,
+				FCDC44DD17643BF700CF4255 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCDC44BC17643BF700CF4255 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCDC44D017643BF700CF4255 /* main.m in Sources */,
+				FCDC44D417643BF700CF4255 /* AppDelegate.m in Sources */,
+				FCDC44E017643BF700CF4255 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCDC44CC17643BF700CF4255 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDC44CD17643BF700CF4255 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FCDC44DB17643BF700CF4255 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCDC44DC17643BF700CF4255 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCDC44E117643BF700CF4255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FCDC44E217643BF700CF4255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCDC44E417643BF700CF4255 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgKitchenTImer/ProgKitchenTImer-Prefix.pch";
+				INFOPLIST_FILE = "ProgKitchenTImer/ProgKitchenTImer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FCDC44E517643BF700CF4255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProgKitchenTImer/ProgKitchenTImer-Prefix.pch";
+				INFOPLIST_FILE = "ProgKitchenTImer/ProgKitchenTImer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCDC44BB17643BF700CF4255 /* Build configuration list for PBXProject "ProgKitchenTImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDC44E117643BF700CF4255 /* Debug */,
+				FCDC44E217643BF700CF4255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCDC44E317643BF700CF4255 /* Build configuration list for PBXNativeTarget "ProgKitchenTImer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCDC44E417643BF700CF4255 /* Debug */,
+				FCDC44E517643BF700CF4255 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCDC44B817643BF700CF4255 /* Project object */;
+}
