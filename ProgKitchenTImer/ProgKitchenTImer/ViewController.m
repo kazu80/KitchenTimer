@@ -33,8 +33,8 @@
 }
 
 - (IBAction)clickStart:(id)sender {
-    minute = 0;
-    second = 10;
+//    minute = 0;
+//    second = 10;
     
     tm = [NSTimer scheduledTimerWithTimeInterval:1.0f target:self selector:@selector(onTimer:) userInfo:nil repeats:YES];
     
@@ -75,4 +75,40 @@
         _picker.hidden = YES;
     }
 }
+
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 2;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    if ( component == 0 ){
+        return 99;
+    } else {
+        return 60;
+    }
+}
+
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    NSString *text = @"";
+    if ( component == 0 ) {
+        text = [NSString stringWithFormat:@"%02d分", row];
+    } else {
+        text = [NSString stringWithFormat:@"%02d秒", row];
+    }
+    return text;
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+
+    if ( component == 0 ) {
+        minute = row;
+    } else {
+        second = row;
+    }
+
+}
+
 @end
